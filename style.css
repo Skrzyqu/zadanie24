@@ -1,25 +1,44 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+table {
+    margin-bottom: 75px;
+}
+th, td {
+    border: 1px solid black;
+}
 
 .table1 {
     font-size: 16px;
     border-collapse: collapse;
 }
-
-#x {
-    text-align: left;
-    vertical-align: top;
+.table1 th {
+    padding: 10px;
+    color: white;
+    background-color: green;
 }
 
-#y {
-    text-align: center;
-    vertical-align: middle;
+.table1 tr {
+    height: 50px;
 }
 
-#z {
-    text-align: right;
-    vertical-align: bottom;
+.table1 td {
+    padding: 5px;
+}
+
+.table2 th {
+    color: white;
+    background-color: green;
+}
+
+.table3 {
+    border-collapse: collapse;
+}
+
+.table3 th {
+    width: 200px;
+    background-color: orange;
+    color: blue;
 }
 
 #n1
@@ -36,40 +55,17 @@ body {
 {
     width: 200px; 
 }
-
-th, td {
-    border: 1px solid black;
+#x {
+    text-align: left;
+    vertical-align: top;
 }
 
-table {
-    margin-bottom: 75px;
+#y {
+    text-align: center;
+    vertical-align: middle;
 }
 
-.table1 th {
-    padding: 10px;
-    color: white;
-    background-color: darkgreen;
-}
-
-.table1 tr {
-    height: 50px;
-}
-
-.table1 td {
-    padding: 5px;
-}
-
-.table2 th {
-    color: white;
-    background-color: darkgreen;
-}
-
-.table3 {
-    border-collapse: collapse;
-}
-
-.table3 th {
-    width: 200px;
-    background-color: orange;
-    color: blue;
+#z {
+    text-align: right;
+    vertical-align: bottom;
 }
